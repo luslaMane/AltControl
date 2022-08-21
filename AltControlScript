@@ -21,4 +21,4 @@ getgenv().Settings = {
  ["Alt3"] = "altname3",
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/luslaMane/AltControl/main/Script%20Da%20hood"))()
-Так же видос с инструкцией:
+Так же видос с инструкцией: https://youtu.be/bxc8OBs6ZDg
