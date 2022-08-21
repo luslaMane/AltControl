@@ -1,0 +1,23 @@
+--DA HUB ALT CONTROL KEEP IN AUTO EXEC
+repeat
+wait()
+until
+game:IsLoaded()
+getgenv().Settings = {
+ ["Host"] = "Мейн акк сюда(хост)",
+ ["Prefix"] = ">",
+ ["FPS"] = 5,
+ ["Ad"] = "Спасибо за покупку.",
+ ["Advertise"] = true,
+ ["AdWaitTime"] = 10,
+ ["WebHookMode"] = true,
+ ["Webhookurl"] = "WEBHOOKHERE", ---Сюда вебхук с дискорда
+ ["NotificationMode"] = true, 
+ ["GodMode"] = true,
+ ["AutoMask"] = true,
+ ["AutoHide"] = false,
+ ["Alt1"] = "altname1", --Скрипт до 20 альтов ["Alt20"] = "user"
+ ["Alt2"] = "altname2",
+ ["Alt3"] = "altname3",
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/luslaMane/AltControl/main/Script%20Da%20hood"))()
